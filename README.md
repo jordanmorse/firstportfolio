@@ -1,0 +1,1 @@
+This assignment was to create a responsive personal portfolio webpage with a Contact, About and Portfolio page. I utilized HTML, CSS and Bootstrap components to create, style and ensure responsiveness to multiple screen types and sizes. The portfolio is an introduction to me and my work.
