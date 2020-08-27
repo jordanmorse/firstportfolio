@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url("https://images.unsplash.com/photo-1583151562451-c0672fdeba94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-image: url("https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -9,15 +9,90 @@ body {
 
 .about-me {
     text-align: left;
-    background-color: white;
+    background-color: #fae4dd;
     padding-bottom: 20px;
+}
+
+.portfolio {
+    background-color: #fae4dd;
+}
+
+p {
+    color: #866d73;
+}
+
+h1 {
+    color: #866d73;
 }
 
 .img-responsive {
     max-width: 25%;
     padding-right: 20px;
+    filter: grayscale(100%);
 }
 
 .col-sm-12 {
     padding-right: 50px;
 }
+
+.portfolio {
+    background-color: #fae4dd;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-expand-lg .navbar-custom .navbar-toggler {
+    color: #866d73
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #866d73;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #544247;
+}
+.navbar-brand {
+    color: #866d73;
+}
+
+.navbar-brand:hover {
+    color: #544247;
+}
+
+.navbar-custom {
+    background-color: #d7bfc1;
+    border: 1px solid #d7bfc1;
+    margin-bottom: 60px;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: rgb(134,109,115);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(134,109,115, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.form-group, hr {
+    color: #866d73;
+}
+
+.btn, .btn-primary {
+    background-color: #866d73;
+    border: 1px solid  #866d73;
+}
+
+.row, {
+    margin: 20px;
+}
+
+
+.img-reshape {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
