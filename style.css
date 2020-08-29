@@ -6,14 +6,13 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
-
 .about-me {
     text-align: left;
     background-color: #fae4dd;
 }
 
-.padding {
-    padding-bottom: 20px;
+.jumbotron {
+    background-color: #fae4dd;  
 }
 
 p {
@@ -68,7 +67,7 @@ h1 {
 .navbar-custom {
     background-color: #d7bfc1;
     border: 1px solid #d7bfc1;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .custom-toggler .navbar-toggler {
@@ -103,7 +102,12 @@ footer {
     position: sticky;
     background-color: #d7bfc1;
     border: 1px solid #d7bfc1;
-    margin-top: 30px;
+    margin-top:  30px;
 }
+
+.contact {
+    margin-bottom: 20px;
+}
+
 
 
