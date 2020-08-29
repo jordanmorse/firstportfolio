@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="active">
-                        <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -33,13 +33,11 @@
       </nav>
     </header>
 
-<!--can't get container to not take up entire screen on xs sizing,
-does it need to be responsive to me resizing my browser or google inspect 
-changing device type-->
+
   <section> 
     <div class="container">
-        <div class="row">
-            <div id="contact" class="about-me col-xs-8 col-sm-8">
+        <div class="row justify-content-center">
+            <div id="contact" class="about-me col-12 col-sm-10 col-md-8 col-lg-8">
                 <form>
                     <h1>Contact</h1>
                     <hr>
@@ -76,5 +74,14 @@ changing device type-->
     </div>
   </section>   
 
+  <footer>
+    <nav class="navbar sticky-bottom">
+      <p>Jordan Morse 2020</p>
+    </nav>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

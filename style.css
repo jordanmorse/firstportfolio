@@ -4,17 +4,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .about-me {
     text-align: left;
     background-color: #fae4dd;
+}
+
+.padding {
     padding-bottom: 20px;
 }
 
-.portfolio {
-    background-color: #fae4dd;
+#p-header {
+    padding-left: 70px;
 }
 
 p {
@@ -36,9 +39,16 @@ h1 {
 }
 
 .portfolio {
-    background-color: #fae4dd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.col-12 {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/*custom navbar styling*/
 
 .navbar .navbar-expand-lg .navbar-custom .navbar-toggler {
     color: #866d73
@@ -47,6 +57,7 @@ h1 {
 .navbar-custom .navbar-nav .nav-link {
     color: #866d73;
 }
+
 .navbar-custom .navbar-nav .nav-link:hover {
     color: #544247;
 }
@@ -72,6 +83,7 @@ h1 {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(134,109,115, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
 .form-group, hr {
     color: #866d73;
 }
@@ -81,18 +93,26 @@ h1 {
     border: 1px solid  #866d73;
 }
 
-.row {
-    margin: 20px;
+i {
+    margin: 10px;
+    color: #866d73;
+}
+
+i:hover {
+    color: #544247;
 }
 
 
-.img-reshape {
-    margin-bottom: 10px;
+footer {
+    position: sticky;
+    background-color: #d7bfc1;
+    border: 1px solid #d7bfc1;
+    margin-top: 30px;
 }
 
-.container-fluid {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+/* to do: portfolio section? footer?
 
+    2. active link not highlighted
+
+    */
 
