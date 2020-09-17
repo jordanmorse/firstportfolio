@@ -11,6 +11,14 @@ body {
     background-color: #fae4dd;
 }
 
+a {
+    color: #544247;
+}
+
+a:hover {
+    color: #544247;
+}
+
 .jumbotron {
     background-color: #fae4dd;  
 }
