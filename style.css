@@ -1,34 +1,76 @@
 body {
-    background-color: black;
-    background-image: url("https://images.unsplash.com/photo-1529697216570-f48ef8f6b2dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-color: #EED7C5;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
+
 .about-me {
     text-align: left;
-    background-color: #fae4dd;
+    background-color: #C97C5D;
+}
+
+.tech {
+    background-color: #C89F9C;
+    margin-left: 10px;
+}
+
+.techDescription {
+    color: #EEE2DF;
 }
 
 a {
-    color: #544247;
+    color: #C97C5D;
 }
 
 a:hover {
-    color: #544247;
+    color: #B36A5E;
 }
 
 .jumbotron {
-    background-color: #fae4dd;  
+    background-color: #B36A5E;  
 }
 
 p {
-    color: #866d73;
+    font-family: bookmania, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EEE2DF;
+}
+
+h3 {
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B36A5E; 
+}
+
+h4 {
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal; 
+    padding-top: 5px;
+    color:#B36a5E;
 }
 
 h1 {
-    color: #866d73;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #EEE2DF;
+}
+
+.description {
+    color: #C97C5D;
+}
+
+.col-12 {
+    padding-bottom: 20px;
+}
+
+#portfolio-color {
+    color: #B36A5E;
 }
 
 .img-responsive {
@@ -37,80 +79,95 @@ h1 {
     filter: grayscale(100%);
 }
 
-.col-sm-12 {
-    padding-right: 50px;
-}
-
 .portfolio {
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-.col-12 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /*custom navbar styling*/
 
 .navbar .navbar-expand-lg .navbar-custom .navbar-toggler {
-    color: #866d73
+    font-style: normal;
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: #866d73;
+    color: #B36A5E;
+    font-family: bookmania, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
-    color: #544247;
+    color: #B36A5E;
 }
 .navbar-brand {
-    color: #866d73;
+    color: #B36A5E;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .navbar-brand:hover {
-    color: #544247;
+    color: #B36A5E;
 }
 
 .navbar-custom {
-    background-color: #d7bfc1;
-    border: 1px solid #d7bfc1;
+    background-color: transparent;
     margin-bottom: 30px;
 }
 
 .custom-toggler .navbar-toggler {
-    border-color: rgb(134,109,115);
+    border-color: rgb(179,106,94);
 }
 
 .custom-toggler .navbar-toggler-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(134,109,115, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179,106,94, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 
 .form-group, hr {
-    color: #866d73;
+    color: #C97C5D;
 }
 
-.btn, .btn-primary {
-    background-color: #866d73;
-    border: 1px solid  #866d73;
+.btn{
+    background-color: #EEE2DF;
+    border: 1px solid  #EEE2DF;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B36A5E;
+}
+
+.contact {
+    background-color: #B36A5E;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contact-me {
+    background-color: #C89F9C;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 i {
     margin: 10px;
-    color: #866d73;
+    color: #EEE2DF;
 }
 
 i:hover {
-    color: #544247;
+    color: #EED7C5;
 }
-
 
 footer {
     position: sticky;
-    background-color: #d7bfc1;
-    border: 1px solid #d7bfc1;
+    background-color: transparent;
     margin-top:  30px;
+}
+
+.footer-text {
+    color:#B36A5E;
 }
 
 .contact {
