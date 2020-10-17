@@ -79,11 +79,6 @@ h1 {
     filter: grayscale(100%);
 }
 
-.portfolio {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
 /*custom navbar styling*/
 
 .navbar .navbar-expand-lg .navbar-custom .navbar-toggler {
@@ -124,9 +119,8 @@ h1 {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179,106,94, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
-.form-group, hr {
-    color: #C97C5D;
+hr {
+    color: #B36A5E;
 }
 
 .btn{
@@ -174,9 +168,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.description {
-    background-color: fae4dd;
-}
 
 
 
