@@ -3,7 +3,7 @@ This assignment was to create a responsive personal portfolio webpage with a Con
 Site Link: https://jordanmorse.github.io/firstportfolio/
 Github repository: https://github.com/jordanmorse/firstportfolio
 
-![portfolio](assets/images/website.png)
+
 
  
 
